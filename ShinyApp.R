@@ -158,7 +158,10 @@ server <- function(input, output) {
 
 shinyApp(ui = ui, server = server)
 
-rsconnect::setAccountInfo(name='elliemitche', token='FEB1789CD59F8E8393F4EF0481A603EB', secret='SsxYgeMdN/5rELUPeL7M1j763aLeHLaLiJ9uNtgo')
+# obviously removed my personal information from this step before uplooding to github
+rsconnect::setAccountInfo(name= #had my name here, 
+                          token= #token here, 
+                          secret= #secret here)
 
 library(rsconnect)
 
